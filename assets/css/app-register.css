@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.contaner{
+    text-align: center;
+    width: 30rem;
+    height: 55rem;
+    background-color: #ADD8E6;
+}
+.underline{
+    background-color: white;
+    border: 1px solid white;
+    width: 90%;
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.information label{
+    display: block;
+    margin-right: 23rem;
+    margin-top: .75rem;
+    margin-bottom: 3px;
+}
+.information input{
+    width: 26.5rem;
+    height: 2rem;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.course{
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+.course input{
+    width: 4rem;
+    border: none;
+}
+
+.course datalist{
+    background-color: white;
+    color: black;
+}
+.gender{
+    text-align: left;
+    margin-left: 1.25rem;
+    margin-top: 1.5rem;
+}
+.gender div{
+    margin-top: .15rem;
+}
+.phone{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+input::placeholder{
+    padding-left: .5rem;
+}
+.phone input{
+    display: block;
+    width: 26.5rem;
+    height: 2rem;
+    margin-bottom: .5rem;
+}
+.address{
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.address label{
+    display: block;
+}
+.address textarea{
+    width: 26.5rem;
+    height: 5rem;
+
+}
+.address textarea::placeholder{
+    padding: .5rem;
+}
+
+.email{
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.email label{
+    display: block;
+}
+.email input{
+    width: 26.5rem;
+    height: 2rem;
+}
+
+.passwd{
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.passwd label{
+    display: block;
+    margin-top: 1rem;
+}
+
+.passwd input{
+    width: 26.5rem;
+    height: 2rem;
+}
+
+label{
+    margin-bottom: .25rem;
+}
+
+.submit{
+    margin-top: 1.5rem;
+}
+.submit input{
+    width: 85%;
+    margin-right: 1.5rem;
+    height: 2rem;
+    background-color: #56B35F;
+    border: none;
+    color: white;
+}
+
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/app-register.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contaner">
+        <form action="#">
+            <h1 class="title-form">Student Registeration Form</h1>
+        <hr class="underline">
+        <div class="information">
+            <label for="firstName" class="lbl-info">Firstname</label>
+            <input type="text" class="input-info" placeholder="Firstname" required>
+            <label for="middleName" class="lbl-info ml-10">Middlename:</label>
+            <input type="text" class="input-info" placeholder="Middlename" required>
+            <label for="lastName" class="lbl-info">Lastname:</label>
+            <input type="text" class="input-info" placeholder="Lastname" required>
+        </div>
+        <div class="course">
+            <label for="Course-id">course:</label>
+            <input type="datalist" list="course" name="Course-name" id="Course-id" placeholder="course" required>
+            <datalist id="course">
+                <option value="Python">
+                <option value="Java Script">
+                <option value="C#">
+                <option value="Javs">
+            </datalist>
+        </div>
+        <div class="gender">
+            <label for="gn">Gender:</label>
+            <div id="gn">
+                <input type="radio" name="gender" id="Male" required>
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="Female" required>
+                <label for="Female">Male</label>
+                <input type="radio" name="gender" id="Other" required>
+                <label for="Other">Other</label>
+            </div>
+        </div>
+        <div class="phone">
+            <label for="Phone">Phone:</label>
+            <div id="Phone">
+                <input type="tel" pattern="(\+98|0)?9\d{9}$" value="+98" name="Phone" id="phone">
+                <input type="tel" pattern="(\+98|0)?9\d{9}$" placeholder="phone no" name="Phone-2" id="Phone-2">
+            </div>
+        </div>
+
+        <div class="address">
+            <label for="address">Current address:</label>
+            <textarea name="currentAddress" id="address" cols="30" rows="10" required placeholder="Current Address"></textarea>
+        </div>
+        <div class="email">
+            <label for="Email">email</label>
+            <input type="email" placeholder="Enter Email" required name="email" id="Email">
+        </div>
+
+        <div class="passwd">
+            <label for="Passwd">Password</label>
+            <input type="password" name="passwd" id="Passwd" required placeholder="Enter Password">
+            <label for="passwdReType">Re-type Password  </label>
+            <input type="passwordReType" name="passwdReType" required placeholder="Retype Password">
+        </div>
+        <div class="submit">
+            <input type="submit" value="Register">
+        </div>
+        </form>
+    </div>
+</body>
+</html>
