@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 70rem;
+    /* background-color: rgb(218, 226, 233); */
+    height: auto;
+}
+.playVideo{
+    /* background-color: wheat; */
+    text-align: center;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+.playVideo video{
+    width: 95%;
+    height: 15rem;
+}
+.search{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.search label{
+    display: flex;
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+}
+.search input{
+    margin-left: .75rem;
+    margin-top: .25rem;
+}
+.search div{
+    margin: auto;
+}
+.productsList{
+    display: flex;
+    justify-content: center;
+}
+
+.productsList table{
+    width: 95%;
+}
+.productsList th{
+    /* margin: 1rem; */
+    padding: .25rem;
+    width: 4rem;
+}
+.productsList td{
+    /* margin: 1rem; */
+    margin-top: .25rem;
+    padding: .25rem;
+    width: 4rem;
+    text-align: center;
+}
+.productsList tbody tr[data-cell-index]:hover{
+    cursor: pointer;
+    background-color: rgb(219, 218, 218);
+}
+.productsList tbody tr[data-cell-index] button:hover{
+    cursor: pointer;
+    background-color: #1E90FF;
+    color: #fff;
+}
+.productsList tbody tr[data-cell-index] button:active{
+    background-color: #0E1E6E;
+    color: #fff;
+}
+
+.img-laptop{
+    width: 4rem;
+}
+.btn-buy{
+    border: none;
+    border-radius: 50px;
+    color: white;
+    width: 4.5rem;
+    height: 2rem;
+    background-color: #0E1E6E;
+}
+hr{
+    width: 95%;
+    margin-left: 2rem;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/app-q-7.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="playVideo">
+            <video id="videoSRC" width="400" controls autoplay>
+                <source  src="" type="video/mp4">
+            </video>
+        </div>
+
+
+        <div class="search">
+            <div class="modelSearch">
+                <label for="laptopModel">Laptop Model:</label>
+                <input type="datalist" list="laptopMdl" name="laptopMaodel" id="laptopModel" placeholder="Nothing selected" >
+                <datalist id="laptopMdl">  
+                </datalist>
+            </div>
+            <div class="processor">
+                <label for="processor">Processor:</label>
+                <input type="datalist" list="proce" name="processor" id="processor" placeholder="Nothing selected" >
+                <datalist id="proce">
+                </datalist>
+            </div>
+            <div class="RAM">
+                <label for="ram">RAM:</label>
+                <input type="datalist" list="Ram" name="ram" id="ram" placeholder="RAM" >
+                <datalist id="Ram"></datalist>
+            </div>
+            <div class="hardDisk">
+                <label for="Hard">Hard disk:</label>
+                <input type="datalist" list="HardDisk" name="Hard" id="Hard" placeholder="Hard disk" >
+                <datalist id="HardDisk"></datalist>
+            </div>
+            <div class="Display">
+                <label for="display">Display:</label>
+                <input type="datalist" list="Display" name="display" id="display" placeholder="Nothing selected" >
+                <datalist id="Display"></datalist>
+            </div>
+        </div>
+        <hr>
+        <div class="productsList">
+            <table class="tblProductsList" id="productList">
+                <tr class="headerTB">
+                    <th>Laptop Model</th>
+                    <th>Picture</th>
+                    <th>Processor</th>
+                    <th>RAM</th>
+                    <th>Lard disk</th>
+                    <th>Display</th>
+                    <th>Graphics</th>
+                    <th>OS</th>
+                    <th>Weight</th>
+                    <th>Battery</th>
+                    <th>Price</th>
+                    <th>Purchase</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="../assets/js/question-7.js"></script>
+</body>
+</html>
